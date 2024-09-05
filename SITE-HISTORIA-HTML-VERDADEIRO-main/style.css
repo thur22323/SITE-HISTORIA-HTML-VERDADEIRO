@@ -1,0 +1,52 @@
+body {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #42d37a75;
+    color: rgb(255, 255, 255);
+    font-family: "Bai Jamjuree", sans-serif;
+    margin: 5px; /* Espaço entre os botões */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 80%;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+img {
+    max-width: 45%;
+    height: auto;
+}
+
+.texto {
+    margin-top: 10px;
+}
+
+.botoes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os botões */
+}
